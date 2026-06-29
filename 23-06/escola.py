@@ -6,7 +6,7 @@ class Presenca:
         self.data = data;
 
 class Realiza:
-    def __init__(self, est:Estudante, atv:Atividade) -> None:
+    def __init__(self, est, atv) -> None:
         self.estudante = est;
         self.atividade = atv;
         self.nota = 0.0;
